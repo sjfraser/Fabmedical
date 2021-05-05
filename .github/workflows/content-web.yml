@@ -20,8 +20,8 @@ on:
 env:
  imageRepository: 'content-web'
  resourceGroupName: 'fabmedical-358952'
- containerRegistryName: 'acr[DeploymentID]'
- containerRegistry: 'acr[DeploymentID].azurecr.io'
+ containerRegistryName: 'acr358952'
+ containerRegistry: 'acr358952.azurecr.io'
  dockerfilePath: './content-web'
  tag: '${{ github.run_id  }}'
 
